@@ -1,0 +1,7 @@
+.container { width: 600px; margin: 0 auto; font-family: 'Lato', sans-serif; }
+
+section .content { height: 0; overflow: hidden; transition: height 1s; }
+
+section .active.content { height: 150px; }
+
+.header { background-color: cadetblue; font-size: 20px; padding: 15px; text-align: center; margin: 2px; border: 1px solid grey; cursor: pointer; }
